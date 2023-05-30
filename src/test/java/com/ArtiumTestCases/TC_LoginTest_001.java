@@ -38,7 +38,7 @@ public class TC_LoginTest_001 extends Baseclass {
 		
 		WebElement State = driver.findElement(By.xpath("//div[@aria-haspopup='listbox']"));
 		
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		
 		actions.moveToElement(State).click().build().perform();
 		
