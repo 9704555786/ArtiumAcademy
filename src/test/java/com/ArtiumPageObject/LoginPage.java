@@ -54,7 +54,7 @@ public class LoginPage {
 	WebElement SecNextButton;
 	//Confirmation last step of login
 	//span[text()='29']
-	@FindBy (xpath="//span[text()='29']")
+	@FindBy (xpath="//span[text()='04']")
 	WebElement Date;
 	
 	@FindBy (xpath="//div[@class='time-info-container']//button[4]")
